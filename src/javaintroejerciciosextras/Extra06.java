@@ -18,7 +18,7 @@ public class Extra06 {
      acumuladorBajo160=0;
      Scanner leer=new Scanner(System.in);
      do {
-         System.out.println("Ingrese la altura de la persona No. "+(contadorGeneral+2));
+         System.out.print("Ingrese la altura de la persona No. "+(contadorGeneral+2)+" : ");
          altura=leer.nextInt();
          contadorGeneral++;
          acumuladorGeneral+=altura;
